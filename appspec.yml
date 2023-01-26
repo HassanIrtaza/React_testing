@@ -2,16 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu
-permissions:
-  - object: /home/ubuntu
-    owner: ubuntu
-    group: ubuntu
-    type:
-      - directory
-      - file
+    destination: /var/www/html/
 hooks:
   ApplicationStart:
     - location: applicationstart.sh
-      timeout: 300
-      runas: ubuntu
+      timeout: 100
