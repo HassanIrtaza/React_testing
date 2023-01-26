@@ -2,4 +2,4 @@
 
 cd /home/ubuntu                                        
 systemctl start nginx
-npm install
+pm2 -f start server.js
