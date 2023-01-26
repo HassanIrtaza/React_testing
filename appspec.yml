@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: s3://codepipeline-us-east-1-600425472893/Deployment-Testing/SourceArti/uvBN4q3.zip?eTag=32a5f9a69f7f661490e0af75d721704b-1
+  - source: s3://codepipeline-us-east-1-600425472893/Deployment-Testing/SourceArti/
     destination: /var/www/html/
 hooks:
   ApplicationStart:
