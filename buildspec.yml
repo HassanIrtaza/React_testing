@@ -13,4 +13,4 @@ phases:
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync build/ s3://BUCKET_NAME/
+      - aws s3 sync build/ s3://codepipeline-us-east-1-600425472893/
