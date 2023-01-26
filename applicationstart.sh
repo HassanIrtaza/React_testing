@@ -2,3 +2,4 @@
 
 cd /home/ubuntu                                        
 systemctl start nginx
+npm install
