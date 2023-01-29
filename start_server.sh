@@ -1,9 +1,8 @@
 #!/bin/bash
-
+echo starting server
 # navigate to app folder
 cd app
-pm2 start
-# freeze process list for automatic respawn
-pm2 save
-# restart all processes - necessary to do this again?
-pm2 restart all
+echo building application...
+sudo npm run build
+echo starting application...
+sudo pm2 start npm -- run production
