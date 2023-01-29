@@ -4,6 +4,7 @@ files:
   - source: /
     destination: /var/www/html/
 hooks:
-  ApplicationStart:
+   ApplicationStart:
     - location: applicationstart.sh
-      timeout: 100
+      timeout: 300
+      runas: root
