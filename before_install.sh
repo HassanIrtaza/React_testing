@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # navigate to app folder
-cd /var/www/
+cd /var/opt
 
 # install node and npm
 curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
