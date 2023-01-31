@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # navigate to app folder
-cd /var/local
+cd /home/ubuntu
 
 # install dependencies
 npm install
