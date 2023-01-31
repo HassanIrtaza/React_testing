@@ -1,7 +1,7 @@
 #!/bin/bash
 echo starting server
 # navigate to app folder
-cd /home/ubuntu
+cd /app
 echo building application...
 sudo npm run build
 echo starting application...
