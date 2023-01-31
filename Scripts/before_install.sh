@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # navigate to app folder
-cd /app
+cd /home/ubuntu
 
 # install node and npm
-wget https://rpm.nodesource.com/setup_16.x 
-sudo apt install nodejs npm
+curl -fsSL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
+sudo bash /tmp/nodesource_setup.sh
+sudo apt-get install -y nodejs
