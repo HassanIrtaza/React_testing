@@ -4,3 +4,4 @@ echo starting server
 cd /home/ubuntu
 echo starting application...
 sudo pm2 start npm
+sudo systemctl restart nginx
