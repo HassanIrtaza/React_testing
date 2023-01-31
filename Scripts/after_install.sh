@@ -4,7 +4,7 @@
 cd /home/ubuntu/home/myapp
 
 # install dependencies
-npm install
+npm i --force
 # install create-react-app and react-scripts
 # without react-scripts application cannot be started
 npm install --save create-react-app react-scripts
