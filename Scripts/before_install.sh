@@ -4,5 +4,5 @@
 cd /app
 
 # install node and npm
-curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+wget https://rpm.nodesource.com/setup_16.x 
 sudo apt install nodejs npm
