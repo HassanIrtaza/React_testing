@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # navigate to app folder
-cd /home/ubuntu/home/myapp
+#cd /home/ubuntu/home/myapp
 
 # install dependencies
 sudo npm i --force
