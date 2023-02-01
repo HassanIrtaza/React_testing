@@ -4,7 +4,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/home/myapp
+    destination: /home/ubuntu/myapp
     overwrite: true
 
 permissions:
