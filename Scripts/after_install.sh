@@ -1,4 +1,4 @@
 cd /home/ubuntu/myapp
-npm install
+npm i --force
 npm install --save react react-dom react-scripts react-particles-js
 npm install pm2 -g
