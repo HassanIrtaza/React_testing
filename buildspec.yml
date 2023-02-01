@@ -1,13 +1,15 @@
 # Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
 version: 0.2
-phases:
-  pre_build:
+phases: 
+  install:
     commands:
-      #installs dependencies into the node_modules/ directory
       - curl -fsSL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
       - sudo bash /tmp/nodesource_setup.sh
       - sudo apt-get install -y nodejs
-      - sudo apt install npm
+  pre_build:
+    commands:
+      #installs dependencies into the node_modules/ directory
+      - npm install
   build:
     commands:
       - echo Build started on `date`
