@@ -23,3 +23,5 @@ artifacts:
   baseDirectory: build
   files:
     - build/**/*
+    - appspec.yml
+    - Scripts/**/*
