@@ -7,4 +7,4 @@ sudo curl -fsSL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.s
 sudo bash /tmp/nodesource_setup.sh
 sudo apt-get install -y nodejs
 sudo apt install nginx
-
+npm install pm2 -g
