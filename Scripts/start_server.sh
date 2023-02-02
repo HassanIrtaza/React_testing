@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/home/myapp
+cd /home/ubuntu/home/workspace/react/
 systemctl restart nginx
 #npm start
 #pm2 start npm --name "myapp" -- start
