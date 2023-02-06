@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Start"
 cd /home/ubuntu/home/workspace/react/
 systemctl restart nginx
 #npm start
